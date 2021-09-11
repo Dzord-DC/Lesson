@@ -1,0 +1,29 @@
+.title{
+    color: green;
+}
+.gelary{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    
+}
+.gallery-item{
+    padding: 5px;
+    width: 220px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+.item-img{
+    height: 120px;
+}
+.item-audio{
+    width: 220px;
+}
+.item-video{
+    width: 200px;
+}
